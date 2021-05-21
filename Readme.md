@@ -1,12 +1,12 @@
-#Car Detection
+# Car Detection
 
-##Prerequisites:
+## Prerequisites:
 Pycharm IDE
 Installed libraries: tensorflow, numpy, matplotlib, PIL, glob
 Installed TensorFlow Object Detection API(Follow steps given in: https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html#tf-models-install)
 
 
-##To run the Car Detection Model:
+## To run the Car Detection Model:
 Unzip the given .zip folder
 Open the folder in Pycharm IDE.
 
@@ -18,7 +18,7 @@ Note: If importing object_detection.utils is giving error, run the following com
 
 protoc object_detection/protos/*.proto --python_out=.
 
-##How the model was obtained:
+## How the model was obtained:
 The object detection model was evaluated on coco dataset car images using model_main_tf2.py
 then saved and exported using exporter_main_v2.py
 These files are provided by TensorFlow Object Detection API.
