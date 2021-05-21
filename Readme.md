@@ -7,7 +7,7 @@ Installed TensorFlow Object Detection API(Follow steps given in: https://tensorf
 
 
 ## To run the Car Detection Model:
-Unzip the given .zip folder
+
 Open the folder in Pycharm IDE.
 
 1. Place the Images to be detected in workspace/images/predict folder.
